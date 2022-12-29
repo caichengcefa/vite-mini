@@ -1,0 +1,16 @@
+{
+  "name": "vite-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter='./playground/demo' run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vite": "workspace:*",
+    "typescript": "^4.9.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
